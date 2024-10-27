@@ -99,7 +99,8 @@ a {
   color: #037171;
 } */
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   color: var(--primarydarker-color);
 }

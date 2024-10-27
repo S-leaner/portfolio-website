@@ -13,7 +13,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.6;
-  margin: 0 5px;
+  margin: 0 20px;
   color: #fff;
 }
 
@@ -220,12 +220,13 @@ table {
 .contact-info {
   display: flex;
   margin: 0 auto;
-  width: 800px;
+  max-width: 750px;
 }
 
 .contact-info #contact-form {
   width: 100%;
   max-width: 350px;
+  text-align: left;
 }
 
 .get-touch {
@@ -260,7 +261,8 @@ form label {
 footer.page-footer {
   clear: both;
   display: flex;
-  border-top: 1px solid #cdcdcd;
+
+  /* border-top: 1px solid #cdcdcd; */
   flex-direction: column;
   text-align: center;
   margin: 50px 0;
@@ -453,5 +455,23 @@ animation-timing-function: linear;
     grid-row: auto;
     grid-column-start: auto;
     grid-row-start: auto;
+  }
+
+  .contact-info {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-info #contact-form {
+    margin: 0 auto;
+  }
+
+  .profile__portrait {
+    float: none;
+    margin-right: 0;
+  }
+
+  .profile {
+    text-align: center;
   }
 }
